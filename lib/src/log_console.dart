@@ -113,7 +113,7 @@ class _LogConsoleState extends State<LogConsole> {
             )
           : ThemeData(
               brightness: Brightness.light,
-              colorScheme: ColorScheme.dark(primary: Colors.lightBlueAccent),
+              colorScheme: ColorScheme.light(primary: Colors.lightBlueAccent),
             ),
       home: Scaffold(
         body: SafeArea(
